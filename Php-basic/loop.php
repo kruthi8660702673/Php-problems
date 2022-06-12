@@ -1,3 +1,4 @@
+  //While Loop
 <?php
 $x = 1;
 
@@ -7,6 +8,7 @@ while($x <= 5) {
 }
 ?>
 
+//Do While
 <?php
 $x = 1;
 
@@ -16,6 +18,7 @@ do {
 } while ($x <= 3);
 ?>
 
+//For Loop
 <?php
 for ($x = 0; $x <= 6; $x++) {
     if ($x == 4){
@@ -25,6 +28,7 @@ for ($x = 0; $x <= 6; $x++) {
 }
 ?>
 
+//Foreach 
 <?php
 $colors = array("red", "green", "blue", "yellow");
 
