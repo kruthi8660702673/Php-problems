@@ -7,7 +7,7 @@ $n = readline('Enter the number: ');            //input from the user
                 echo $i , "  ";
                 $n = $n / $i;
             }
-    }
+    } 
         if ($n>2){
             echo $n;
         }
