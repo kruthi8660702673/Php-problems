@@ -1,10 +1,9 @@
 <?php
-$y;
-$z;
 $x = readline('Enter the alphabet ');       //Taking the input from the console
-    if($x && ctype_alpha($x)){          // Checking the conditionCondition
-        $y = $x == 'a' || $x == 'e' || $x == 'i' || $x == 'o' || $x == 'u' ;    
-        $z = $x == 'A' || $x == 'E' || $x == 'I' || $x == 'O' || $x == 'U' ;
+$y = ($x == 'a' || $x == 'e' || $x == 'i' || $x == 'o' || $x == 'u' );  
+$z = ($x == 'A' || $x == 'E' || $x == 'I' || $x == 'O' || $x == 'U' );
+
+    if(strlen($x) < 2 && ctype_alpha($x)){          // Checking the conditionCondition
         if($x == $y || $z){
             echo ('Entered alphabet is a Vowel');           //Printing the vowel
         }else{
@@ -13,6 +12,5 @@ $x = readline('Enter the alphabet ');       //Taking the input from the console
     }else{
         echo ('Enter the correct alphabet');
     }
-
 
 ?>
