@@ -16,4 +16,3 @@ $n = readline('Enter the number: ');            //input from the user
     }else{
         echo "enter a valid number";
     }
-?>

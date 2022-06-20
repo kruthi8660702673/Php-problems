@@ -9,6 +9,7 @@ echo "The stop watch is started \n ";
 }
 $stop =readline('stop the time: ');
 
+
 if ($stop == 2){
     $end_time = time();
     echo "The stop watch is stopped:\n";

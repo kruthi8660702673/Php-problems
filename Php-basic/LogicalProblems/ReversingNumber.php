@@ -12,4 +12,3 @@ if (is_numeric($N)) {
 } else {
     echo "Invalid Input ";              
 }
-?>

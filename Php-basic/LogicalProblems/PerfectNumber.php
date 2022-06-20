@@ -13,6 +13,7 @@ if(is_numeric($x)){
  }else{
     echo("not a perfect number");
  }
- 
+
+
 }
 ?>

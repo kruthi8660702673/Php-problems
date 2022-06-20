@@ -11,6 +11,7 @@ class Temparature{
     }
 }
 
+
 $temp = readline('Enter the temparature: ');
 $option = readline('Enter the scale to convert temparature in C or F: ');
 $temparature = new Temparature;

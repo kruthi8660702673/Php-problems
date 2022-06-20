@@ -16,6 +16,7 @@ class dayOfWeek{
     }
 }
 
+
 $day = new dayOfWeek;
 $day->dayofweek($date, $month, $year, $dayList);
 ?>
